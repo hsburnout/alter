@@ -117,7 +117,7 @@ h1 {
 
 .buttonUp {
     text-align: right; /* Right-align the button */
-    margin-top: 39vh; /* Adjust the margin as needed */\
+    margin-top: 23%; /* Adjust the margin as needed */\
 }
 
 .hoverButtonUp {
@@ -140,7 +140,7 @@ h1 {
 
 .buttonDown {
     text-align: left; /* Right-align the button */
-    margin-top: 39vh; /* Adjust the margin as needed */\
+    margin-top: 23%; /* Adjust the margin as needed */\
 }
 
 .hoverButtonDown {
