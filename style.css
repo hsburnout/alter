@@ -1,0 +1,117 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/home/viisteorra/Documents/Website/Cyberpunk_Noir.png');
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    font-family: 'Arial', sans-serif; /* Consider a more futuristic font */
+    color: #fff; /* Adjust based on your preference */
+    margin-bottom: 20px;
+}
+h1 {
+    position: fixed;
+    top: 0;
+    margin: 20px;
+    z-index: 1001;
+    font-size: 50px;
+    color: rgba(5, 250, 250, 0.75);
+}
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    bottom: 0;
+    transform: translateX(-100%); /* Center the tooltip and raise it a bit above the link */
+
+}
+
+#tutorials:hover + #tutorials-tooltip,
+#downloads:hover + #downloads-tooltip {
+    display: inline-block;
+}
+
+.top-menu img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    padding: 0 20px;
+    margin: 0 20px;
+}
+
+.top-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, rgba(255, 50, 255, 0.1), rgba(0, 255, 255, 0.1));
+    backdrop-filter: blur(1px);
+    z-index: 1000;
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+}
+
+.top-menu a {
+    display: inline-block; /* Add this line */
+    margin: 0 20px; /* Adjust the margin values as needed */
+    text-decoration: none;
+    color: #FFFFFF; /* Purple color for links */
+    font-size: 16px;
+}
+
+.main-window {
+    margin: 100px auto 0;
+    padding: 20px;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 1), rgba(50, 50, 50, 0.9)); /* Sleek gray with transparency */
+    backdrop-filter: blur(5px);
+    width: 80%;
+    /*max-width: 800px; /* Adjust based on your preference */
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.main-window a {
+    text-decoration: none;
+    color: rgba(30, 200, 200);
+    padding: 20px;
+}
+
+.main-window p {
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.main-window h3 {
+    padding-left: 20px;
+}
+
+.main-window h4 {
+    padding-left: 25px;
+}
+
+.footer {
+    width: 80%;
+    background: rgba(25, 25, 25, 0.8); /* Darker gray for the footer */
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 20px;
+    color: #A0A0A0; /* Purple color for links */
+}
+
+/* Add custom styles for your futuristic theme here */
