@@ -115,4 +115,50 @@ h1 {
     color: #A0A0A0; /* Purple color for links */
 }
 
+.buttonUp {
+    text-align: right; /* Right-align the button */
+    margin-top: 39vh; /* Adjust the margin as needed */\
+}
+
+.hoverButtonUp {
+    background: linear-gradient(to right, rgba(255, 50, 255, 0.2), rgba(0, 255, 255, 0.2)); /* Set your desired gradient colors */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline for anchor */
+    display: inline-block; /* Make the anchor element behave like a button */
+    transition: border 0.3s; /* Add transition for border property */
+}
+
+.hoverButtonUp:hover {
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.2), rgba(255, 50, 255, 0.2)); /* Change gradient colors on hover */
+    border: 2px solid transparent; /* Add transparent border */
+}
+
+.buttonDown {
+    text-align: left; /* Right-align the button */
+    margin-top: 39vh; /* Adjust the margin as needed */\
+}
+
+.hoverButtonDown {
+    background: linear-gradient(to right, rgba(255, 50, 255, 0.2), rgba(0, 255, 255, 0.2)); /* Set your desired gradient colors */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline for anchor */
+    display: inline-block; /* Make the anchor element behave like a button */
+    transition: border 0.3s; /* Add transition for border property */
+}
+
+.hoverButtonDown:hover {
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.2), rgba(255, 50, 255, 0.2)); /* Change gradient colors on hover */
+    border: 2px solid transparent; /* Add transparent border */
+}
+
 /* Add custom styles for your futuristic theme here */
