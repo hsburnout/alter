@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-image: url('/home/viisteorra/Documents/Website/Cyberpunk_Noir.png');
+    background-image: url('../home/viisteorra/Documents/Website/Cyberpunk_Noir.png');
     background-repeat: repeat-y;
     background-size: 100% auto;
     font-family: 'Arial', sans-serif; /* Consider a more futuristic font */
