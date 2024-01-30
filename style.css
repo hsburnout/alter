@@ -103,7 +103,7 @@ h1 {
 }
 
 .footer {
-    width: 80%;
+    width: 40%;
     background: rgba(25, 25, 25, 0.8); /* Darker gray for the footer */
     backdrop-filter: blur(10px);
     justify-content: center;
