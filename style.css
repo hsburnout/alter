@@ -85,7 +85,7 @@ h1 {
     padding: 20px;
 }
 
-.main-window p {
+.main-window > p {
     text-decoration: none;
     padding-left: 50px;
 }
@@ -96,6 +96,10 @@ h1 {
 
 .main-window h4 {
     padding-left: 25px;
+}
+
+.main-window form {
+    padding-left: 50px;
 }
 
 .footer {
