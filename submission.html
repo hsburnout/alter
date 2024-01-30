@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+    <a href="index.html"><h1>ALTER</h1></a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALTER</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="top-menu">
+        <a href="index.html">
+            <img id="tutorials" src="Tutorials_icon.png" alt="Tutorials">
+            <div class="tooltip" id="tutorials-tooltip">Tutorials</div>
+        </a>
+        <a href="apps.html">
+            <img id="downloads" src="Downloads_icon.png" alt="Downloads">
+            <div class="tooltip" id="downloads-tooltip">Downloads</div>
+        </a>
+    </div>
+
+    <div class="main-window">
+        <h2>Submission Rules: </h2>
+        <p>If you fail to follow all of these rules, then unfortunately.. your submission for that week will be disqualified.</p>
+        <h4>1.) Only one file per submission.</h4>
+        <h4>2.) Each user is allowed only one submission per week.</h4>
+        <h4>3.) Only mp3, mp4, wav, and png files are allowed.</h4>
+        <h4>4.) Files cannot exceed 3GB.</h4>
+        <h4>5.) Keep all submissions appropriate.</h4>
+        <h4>6.) Submitted file-names must be in this format "name_familiar_submissionTitle.fileType"</h4>
+        <p>My name is Dylan, my familiar is a coyote, the name of the art I'm submitting is 'the rat king', and the file-type is png. My file-name must be Dylan_Coyote_the rat king.png</p>
+        <!-- Make sure you don't change the form action-->
+        <form action="https://api.staticforms.xyz/submit" method="post">
+        <!-- Replace with accesKey sent to your email -->
+        <input type="hidden" name="accessKey" value="a483d990-229f-4f00-b23d-dafb08cb1c94"> <!-- Required -->
+            <p>Name: </p><input type="text" name="name"> <!-- Optional -->
+            <p>Familiar (pet): </p><input type="text" name="subject"> <!-- Optional -->
+            <br><br>
+            <p>File: </p>
+            <iframe width="250" height="54" frameborder="0" src="https://mega.nz/filerequest#!c8yILYr-Lc8!l!en"></iframe>
+            <br><br>
+            <input type="hidden" name="redirectTo" value="https://altercomputers.com/world"> <!-- Optional -->
+        <input type="submit" value="Submit" />
+    </form>
+
+
+
+
+
+    </div>
+    <div class="footer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsUgyklqtAGIkzHvVpk5PMIXY8iq3ACKz9qN-1D9p7nd8oxA/viewform?usp=sf_link" target="_blank">Contact</a>
+        <a href="about.html">About</a>
+    </div>
+</body>
+</html>
