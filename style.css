@@ -141,6 +141,12 @@ h1 {
     border: 2px solid transparent; /* Add transparent border */
 }
 
+.spacing {
+    border: none;
+    padding: 10px 20px;
+    display:inline-block;
+    
+
 .buttonDown {
     text-align: left; /* Right-align the button */
     margin-top: 50px; /* Adjust the margin as needed */\
