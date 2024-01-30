@@ -74,7 +74,6 @@ h1 {
     background: radial-gradient(ellipse at center, rgba(0, 0, 0, 1), rgba(50, 50, 50, 0.9)); /* Sleek gray with transparency */
     backdrop-filter: blur(5px);
     width: 80%;
-    /*max-width: 800px; /* Adjust based on your preference */
     overflow-y: auto;
     border-radius: 10px;
 }
@@ -103,7 +102,7 @@ h1 {
 }
 
 .footer {
-    width: 40%;
+    width: 300px;
     background: rgba(25, 25, 25, 0.8); /* Darker gray for the footer */
     backdrop-filter: blur(10px);
     justify-content: center;
@@ -121,7 +120,7 @@ h1 {
 
 .buttonUp {
     text-align: right; /* Right-align the button */
-    margin-top: 20%; /* Adjust the margin as needed */\
+    margin-top: 50px; /* Adjust the margin as needed */\
 }
 
 .hoverButtonUp {
@@ -144,7 +143,7 @@ h1 {
 
 .buttonDown {
     text-align: left; /* Right-align the button */
-    margin-top: 20%; /* Adjust the margin as needed */\
+    margin-top: 50px; /* Adjust the margin as needed */\
 }
 
 .hoverButtonDown {
