@@ -99,7 +99,7 @@ h1 {
 
 .main-window h6 {
     font-size: 30px;
-    color: linear-gradient(to right, rgba(5, 250, 250, 0.75), rgba(255, 50, 255, 0.2));
+    color: rgba(5, 250, 250);
     text-align: center;
 }
 
