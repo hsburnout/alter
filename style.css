@@ -98,9 +98,9 @@ h1 {
 }
 
 .main-window h6 {
-    text-align: center;
     font-size: 30px;
-    color: rgba(5, 250, 250, 0.75);
+    color: linear-gradient(to right, rgba(5, 250, 250, 0.75), rgba(255, 50, 255, 0.2));
+    text-align: center;
 }
 
 .main-window form {
