@@ -36,8 +36,7 @@ h1 {
 
 }
 
-#tutorials:hover + #tutorials-tooltip,
-#downloads:hover + #downloads-tooltip {
+#world:hover + #world-tooltip {
     display: inline-block;
 }
 
