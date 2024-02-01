@@ -26,8 +26,8 @@
             <form action="https://api.staticforms.xyz/submit" method="post">
                 <input type="hidden" name="accessKey" value="a483d990-229f-4f00-b23d-dafb08cb1c94"> <!-- Required -->
                 <input type="hidden" name="$pageIdentifier" value="buy">
-                <p>Name: </p><input type="text" name="$Name" required>
-                <p>Email: </p><input type="text" name="$Email" required>
+                <p>Name: </p><input type="text" name="$Name" required><br><br>
+                <p>Email: </p><input type="text" name="$Email" required><br><br>
                 <br><br>
                 <label>
                     <input type="checkbox" name="$BringMySystem">
@@ -48,8 +48,9 @@
                     <input type="checkbox" name="$WantPin">
                     *I would like to enable PIN protection for browser-enabled features, such as tutorials and art submissions? (This still applies to you, even if you choose not to install the main web browser application)
                 </label>
-                <br>
+                <br><br><br>
                 <p>*PIN: </p><input type="text" name="$Pin">
+                <br><br>
                 <p>Theme (short prompt; the theme of this webpage is 'cyberpunk noir'): </p><input type="text" name="$Theme" required>
                 <br><br>
                 <label>
@@ -61,11 +62,12 @@
                     <input type="checkbox" name="$Retro">
                     *Retro
                 </label>
+                <br><br>
                 <p>What's your favorite animal?</p><input type="text" name="$Familiar" required>
                 <p>*If you would like to get your Alter system delivered directly to you, please enter your address in the field below. This is used to estimate a travel fee for your installer. Travel fees are 60¢ per mile of the round trip. We only offer services to individuals located within 50 miles of Boise. Please format your address like such: [street, city, zip].</p><input  type="text" name="$Address">
-                <br>
+                <br><br>
                 <p>*How did you discover Alter? </p><textarea id="longAnswer" name="name" rows="4" cols="50"></textarea>
-                <br>
+                <br><br><br>
                 <label>
                     <input type="checkbox" name="$Agree" required>
                     By checking this box, I confirm that I have read and agree to the terms outlined in The Alter Configuration Agreement, The Alter User Agreement, and The Privacy Policy (These documents can be found at altercomputers.com/faq).
