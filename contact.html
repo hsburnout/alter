@@ -26,8 +26,8 @@
         <form action="https://api.staticforms.xyz/submit" method="post">
         <!-- Replace with accesKey sent to your email -->
         <input type="hidden" name="accessKey" value="a483d990-229f-4f00-b23d-dafb08cb1c94"> <!-- Required -->
-            <p>Email: </p><input type="text" name="subject"> <!-- Optional -->
-            <p>How can we help you? </p><textarea id="longAnswer" name="name" rows="4" cols="50"></textarea>
+            <p>Email: </p><input type="text" name="subject" required> <!-- Optional -->
+            <p>How can we help you? </p><textarea id="longAnswer" name="name" rows="4" cols="50" required></textarea>
             <br><br>
             <input type="hidden" name="redirectTo" value="https://altercomputers.com"> <!-- Optional -->
         <input type="submit" value="Submit" />
