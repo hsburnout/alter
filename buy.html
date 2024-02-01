@@ -22,7 +22,15 @@
 
     <div class="main-window">
         <h2>PLACE YOUR ORDER</h2>
-
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="a483d990-229f-4f00-b23d-dafb08cb1c94"> <!-- Required -->
+                <input type="hidden" name="$pageIdentifier" value="buy">
+                <p>Name: </p><input type="text" name="$Name" required>
+                <p>Email: </p><input type="text" name="$Email" required>
+                <br><br>
+                <input type="hidden" name="redirectTo" value="https://altercomputers.com/contact/complete">
+                <input type="submit" value="Submit" />
+            </form>
         
       
     </div>
