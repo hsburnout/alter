@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" href="apple_icon2.png">
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+    <a href="index.html"><h1>ALTER</h1></a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALTER</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+</head>
+<body>
+    <div class="top-menu">
+        <a href="world.html">
+            <img id="world" src="World_icon.png" alt="World">
+            <div class="tooltip" id="world-tooltip">World</div>
+        </a>
+    </div>
+
+    <div class="main-window">
+        <h2>Contact: </h2>
+        <!-- Make sure you don't change the form action-->
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="a483d990-229f-4f00-b23d-dafb08cb1c94"> <!-- Required -->
+            <input type="hidden" name="$pageIdentifier" value="contact">
+            <p>Email: </p><input type="text" name="subject" required>
+            <p>How can we help you? </p><textarea id="longAnswer" name="name" rows="4" cols="50" required></textarea>
+            <br><br>
+            <input type="hidden" name="redirectTo" value="https://altercomputers.com/contactcomplete">
+            <input type="submit" value="Submit" />
+        </form>
+
+
+
+
+
+    </div>
+    <div class="footer">
+        <a href="contact.html">Contact</a>
+        <br><br>
+        <a href="about.html">About</a>
+        <br><br>
+        <a href="Shortcut.pdf">FAQ</a>
+        <br><br>
+        <a href="Legal">Legal</a>
+    </div>
+</body>
+</html>
