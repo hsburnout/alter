@@ -99,7 +99,7 @@ h1 {
     text-align: center;
 }
 
-.pitch-additional {
+.additional-pitch {
     margin: 20px auto 0;
     padding: 20px;
     background: radial-gradient(ellipse at center, rgba(0, 0, 0, 1), rgba(50, 50, 50, 0.9)); /* Sleek gray with transparency */
@@ -133,6 +133,7 @@ h1 {
     padding-left: 25px;
 }
 
+.additional-pitch a,
 .pitch a {
     text-decoration: none;
     font-size: 30px;
